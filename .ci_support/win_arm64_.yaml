@@ -8,6 +8,8 @@ channel_sources:
 - conda-forge
 channel_targets:
 - conda-forge main
+cross_target_platform:
+- win-64
 cxx_compiler:
 - vs2022
 expat:
@@ -33,5 +35,6 @@ xz:
 zip_keys:
 - - build_type
   - channel_targets
+  - cross_target_platform
 zlib:
 - '1.2'
