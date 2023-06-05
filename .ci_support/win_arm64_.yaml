@@ -1,7 +1,7 @@
 build_type:
 - release
-bzip2:
-- '1'
+# bzip2:
+# - '1'
 c_compiler:
 - vs2022
 channel_sources:
@@ -12,29 +12,29 @@ cross_target_platform:
 - win-64
 cxx_compiler:
 - vs2022
-expat:
-- '2'
-libffi:
-- '3.4'
-openssl:
-- '3'
+# expat:
+# - '2'
+# libffi:
+# - '3.4'
+# openssl:
+# - '3'
 pin_run_as_build:
   python:
     min_pin: x.x
     max_pin: x.x
 python:
 - '3.11'
-sqlite:
-- '3'
+# sqlite:
+# - '3'
 target_platform:
 - win-arm64
-tk:
-- '8.6'
-xz:
-- '5'
+# tk:
+# - '8.6'
+# xz:
+# - '5'
 zip_keys:
 - - build_type
   - channel_targets
   - cross_target_platform
-zlib:
-- '1.2'
+# zlib:
+# - '1.2'
